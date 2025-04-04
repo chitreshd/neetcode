@@ -10,6 +10,10 @@ import (
  * how can I serialize? BFS or DFS, looking at the sample output it feels like BFS. So lets just do that.
  * gotchas
  ** serialize: couldn't understand how to properly terminate the loop.
+ ** deserialize: well i had no clue
+ ** Algo: You can use BFS to serialize and deserialize both. Serialize is simple. Deserialize, its not exactly
+ ** BFS. You're adding just created nodes to the queue, so you can leverage those as levels.I still dont understand
+ ** why exactly it works, but it does.
  */
 
 func main() {
